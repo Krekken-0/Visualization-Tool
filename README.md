@@ -31,7 +31,7 @@ An intelligent web application that generates data visualizations from CSV files
 
 1. Clone the repository:
 ```bash
-git clone <https://github.com/Krekken-0/Visualization-Tool.git>
+git clone https://github.com/Krekken-0/Visualization-Tool.git
 cd Visualization-Tool
 ```
 
@@ -51,7 +51,7 @@ pip install transformers torch  # Additional dependencies for NLP model
 
 1. Start the application:
 ```bash
-python visualization_tool.py
+gradio visualization_tool.py
 ```
 
 2. Open your web browser and navigate to the URL shown in the terminal (typically `http://localhost:7860` or a Gradio share link)
